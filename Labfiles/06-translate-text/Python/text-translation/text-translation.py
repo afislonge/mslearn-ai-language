@@ -1,6 +1,9 @@
 from dotenv import load_dotenv
 import os
 import requests, json
+from azure.ai.translation.text import *
+from azure.ai.translation.text.models import InputTextItem
+
 
 def main():
     global translator_endpoint
